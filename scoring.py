@@ -1,9 +1,7 @@
-from tabnanny import verbose
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
 from sklearn import metrics
 import xgboost as xgb
-#from sklearn.grid_search import GridSearchCV
 
 # для оценки будем использовать нормализованный коэффициент Джини
 # эта метрика позволяет минимизировать ошибки 2 рода - отказ в кредите ответственному заемщику 
